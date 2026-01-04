@@ -1,3 +1,3 @@
-@props(['size' => 90])
-<img src="{{ Vite::asset('resources/images/placeholder.png') }}" class="w-[{{ $size }}px] h-[{{ $size }}px] rounded-xl"
+@props(['employer', 'width' => 90])
+<img src="{{ asset($employer->logo) }}" class="rounded-xl" width="{{ $width }}"
      alt="">
