@@ -16,4 +16,8 @@
     .bg-black {
         background-color: #060606;
     }
+
+    .fontSize {
+        font-size: 10px;
+    }
 }
